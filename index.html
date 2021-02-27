@@ -5,16 +5,30 @@
   <title>font</title>
   <style>
    
-   table, tr, td {
+   
+   
+   table, tr, td, th {
    border: 4px solid black;
    border-collapse: collapse;
+   
    }
    
-   td {
+   table{
+   border-style:hidden;
+   }
+   
+   td, th {
     font: bold 55pt/100pt arial;
 	text-align: center;
 	
+	
    }
+   
+   th{ 
+   background-color: #d9d9d9; 
+   }
+   
+  
    
    
    
@@ -26,9 +40,9 @@
 
 <tr>
 <td></td>
-<td>DEV</td>
-<td>WAIT</td>
-<td>STORE</td>
+<th>DEV</th>
+<th>WAIT</th>
+<th>STORE</th>
 </tr>
 
 <tr>
