@@ -19,14 +19,14 @@
    }
    
    td, th {
-    font: bold 55pt/100pt arial;
+    font: bold 55pt arial;
 	text-align: center;
-	
-	
    }
    
+   
+   
    th{ 
-   background-color: #d9d9d9; 
+   background-color: #b7b7b7; 
    }
    
   
@@ -34,13 +34,40 @@
    
    
   </style>
+  
+  
+  <script language="Javascript">
+    
+	Date.prototype.getWeek = function() {
+        var onejan = new Date(this.getFullYear(), 0, 4);
+        return Math.ceil((((this - onejan) / 86400000) + onejan.getDay() + 1) / 7);
+    }
+
+    var weekNumber = (new Date()).getWeek();
+	
+	
+	onload = function () {
+    var div = document.getElementsByTagName("div")[0];
+    div.innerHTML = weekNumber;
+};
+
+	
+</script>
+  
+  
+  
  </head>
  <body> 
+
+
+
+
+
 
 <table border=2 width=100%>
 
 <tr>
-<td></td>
+<td bgcolor="#ebebeb"><div></div><font size=5>week on backend</font></td>
 <th>DEV</th>
 <th>WAIT</th>
 <th>STORE</th>
