@@ -1,13 +1,19 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<style>
+   body { 
+    margin: 25; /* Убираем отступы */
+   }
+   
+   }
+  </style>
 </head>
 <body>
 <h1>Краткий опрос для определения настроения</h1>
 <h2>Тревожные чувства</h2>
 <form>
-  <h3>Тревога</h3>
+  <p>Тревога<br>
     <label>
       <input type="radio" name="t1_q1" value="0">
       0 - совсем нет</label>
@@ -125,10 +131,11 @@
     <input type="button" id="calc" value="Подсчитать результаты">
     <input type="reset" value="Сброс">
   </div>
+  <br>
    Итого баллов: <input type="text" name="result" readonly>
 </form>
 
-<img src="/berns/t1.PNG" width=100%>
+<a href="/berns/t1.PNG"><img src="/berns/t1.PNG" width=100%></a>
 
 <p>
 <h2>Интерпретация результатов по шкале тревожных чувств</h2>
