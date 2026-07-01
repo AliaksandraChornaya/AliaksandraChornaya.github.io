@@ -1,2 +1,5 @@
 xray-eu-01.wakie.com
 wakie.com
+wakie1.com
+wakie2.com
+wak.ie
