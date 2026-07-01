@@ -1,2 +1,2 @@
 xray-eu-01.wakie.com
-octopus-test-wizdom.wakie.com
+wakie.com
